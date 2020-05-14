@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    padding: 50px 0px 0px 0px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+a {
+    color: #00B7FF;
+}
+
+.navbar-brand > img {
+    width: 70%;
+}
+
+
+#artigo {
+    margin: 0;
+    width: 100%;
+}
+
+article{
+    width: 70%;
+    position: absolute;
+    display: block;
+    padding: 75px 25px 25px 25px;
+    margin: 0 auto;
+}
+
+#comentario {
+    width: 74%;
+    position: absolute;
+    display: block;
+    padding: 75px 25px 25px 25px;
+    margin: 0 auto;
+}
