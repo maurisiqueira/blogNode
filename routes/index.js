@@ -57,9 +57,7 @@ router.post('/articles/sendComment', function (req, res, next) {
         })
 
     })
-    next();
-}, function(resp){
-        window.location.href("articles/"+id)
+    res.redirect(id)
 });
 
 
